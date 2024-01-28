@@ -1,0 +1,20 @@
+﻿@model Example.Opti.Models.Pages.ViewModels.SearchPageViewModel
+
+<h1>Search</h1>
+
+<form action="" method="get">
+    <input type="text" value="@Model.Query" name="q" />
+    <button type="submit">Search</button>
+</form>
+
+
+@if (Model.Results is not null) {
+    <h2>Results:</h2>
+
+    foreach (var result in Model.Results) {
+        <div>
+            <h3>@result.Title</h3>
+            <p>@result.Headline</p>
+        </div>
+    }
+}

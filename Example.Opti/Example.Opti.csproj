@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+	<ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="EPiServer" />
+    <Using Include="EPiServer.Core" />
+    <Using Include="EPiServer.DataAbstraction" />
+    <Using Include="EPiServer.DataAnnotations" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="EPiServer.CMS" Version="12.6.0" />
+	<PackageReference Include="EPiServer.CMS.Core" Version="12.9.1" />
+	<PackageReference Include="EPiServer.Framework" Version="12.9.1" />
+	<PackageReference Include="SolrNet.Microsoft.DependencyInjection" Version="1.1.1" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Translations\**\*" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\src\BlendInteractive.Solr.Optimizely\BlendInteractive.Solr.Optimizely.csproj" />
+    <ProjectReference Include="..\src\BlendInteractive.Solr\BlendInteractive.Solr.csproj" />
+  </ItemGroup>
+</Project>

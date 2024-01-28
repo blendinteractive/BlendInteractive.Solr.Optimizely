@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlendInteractive.Solr", "src\BlendInteractive.Solr\BlendInteractive.Solr.csproj", "{FBD05A9B-6F23-481E-80A3-27A0D89A6670}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlendInteractive.Solr.Optimizely", "src\BlendInteractive.Solr.Optimizely\BlendInteractive.Solr.Optimizely.csproj", "{EE9C5C11-D548-4C00-A479-74B25AC21484}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Opti", "Example.Opti\Example.Opti.csproj", "{A86D6320-D291-4647-93FC-C6742CC1ADB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60CB0349-E758-4D37-96E8-B30287AFBD83}"
+	ProjectSection(SolutionItems) = preProject
+		clean.ps1 = clean.ps1
+		Directory.Build.targets = Directory.Build.targets
+		nuget.config = nuget.config
+		pack.ps1 = pack.ps1
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBD05A9B-6F23-481E-80A3-27A0D89A6670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD05A9B-6F23-481E-80A3-27A0D89A6670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD05A9B-6F23-481E-80A3-27A0D89A6670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD05A9B-6F23-481E-80A3-27A0D89A6670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE9C5C11-D548-4C00-A479-74B25AC21484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9C5C11-D548-4C00-A479-74B25AC21484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9C5C11-D548-4C00-A479-74B25AC21484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9C5C11-D548-4C00-A479-74B25AC21484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A86D6320-D291-4647-93FC-C6742CC1ADB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86D6320-D291-4647-93FC-C6742CC1ADB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86D6320-D291-4647-93FC-C6742CC1ADB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86D6320-D291-4647-93FC-C6742CC1ADB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1935A7B-84EA-4A82-BD3E-3AB2152B1A2B}
+	EndGlobalSection
+EndGlobal
